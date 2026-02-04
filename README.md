@@ -1,6 +1,6 @@
 
-# Project Title 
-Building AI course project - Building ISRTS for incoming IT service requests
+
+#  AI course project - Building ISRTS for incoming IT service requests
 
 ## Summary
 
