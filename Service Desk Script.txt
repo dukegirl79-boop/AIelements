@@ -1,0 +1,13 @@
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.linear_model import LogisticRegression
+
+tickets = ["Laptop won't start", "Password reset needed", "VPN not connecting"]
+labels = ["Hardware", "Access", "Network"]
+
+vectorizer = TfidfVectorizer()
+X = vectorizer.fit_transform(tickets)
+
+model = LogisticRegression()
+model.fit(X, labels)
+
+print(model.predict(vectorizer.transform(["Cannot connect to WiFi"])))
