@@ -1,6 +1,6 @@
 
 
-#  AI course project - Building ISRTS for incoming IT service requests
+# Building ISRTS for incoming IT service requests
 
 ## Summary
 
